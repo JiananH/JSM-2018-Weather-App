@@ -1,6 +1,7 @@
 #setwd("\\\\eu.boehringer.com/users/rdg/users4/jgeng/Desktop/Shiny_V3-GV")
 #setwd("~/projects/JSM data challenge/shinyapp check")
 #setwd("C:/Users/Lucia/Downloads")
+setwd("\\\\eu.boehringer.com/users/rdg/users4/droy1/Desktop/R-Shiny/JSM/Nov19")
 list.of.packages <- c("shinythemes", "plyr","dplyr","mapproj", "leaflet","lubridate","shiny","plotly", "sm","zoo","scales","ggplot2","readr","reshape")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)

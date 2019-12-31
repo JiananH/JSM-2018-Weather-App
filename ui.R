@@ -12,7 +12,7 @@ tagList(
     tabPanel("Map navigation",
 
              sidebarPanel(
-               selectInput("measure", label = "Pick a statistics",
+               selectInput("measure", label = "Pick a statistic",
                            choices = list("High Temperature (F)", "Low Temperature (F)", "Precipitation (in)",
                                           "Mean Humidity","Mean Visibility (mi)", "Mean Wind Speed (mph)"),
                            selected = "High Temperature (F)"),
